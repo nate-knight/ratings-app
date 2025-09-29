@@ -1,5 +1,5 @@
 <app-average-rating [ratings]="ratings"></app-average-rating>
 
 @for (rating of ratings; track rating.name) {
-    <app-rating style="display: block" [name]="rating.name" [content]="rating.content" [rate]="rating.rate"></app-rating>
+    <app-rating [name]="rating.name" [content]="rating.content" [rate]="rating.rate"></app-rating>
 }

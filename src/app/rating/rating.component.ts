@@ -4,7 +4,10 @@ import { Component, Input } from '@angular/core';
   selector: 'app-rating',
   imports: [],
   templateUrl: './rating.component.html',
-  host: { class: 'ratings__item' }
+  host: { class: 'ratings__item' },
+  styles: [`
+    :host { display: block;} 
+  `]
 })
 export class RatingComponent {
   @Input('name')

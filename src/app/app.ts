@@ -15,7 +15,6 @@ export class App {
   protected readonly title = signal('ratings-app');
   public ratings: Rating[] = [
     { name: 'Keisha Holmes', content: 'Keisha content...', rate: 4 },
-    { name: 'John Doe', content: 'John content...', rate: 5 },
-    { name: 'Jane Smith', content: 'Jane content...', rate: 1 },
+    { name: 'Allison Ratliff', content: 'Allison content...', rate: 1 },
   ]
 }

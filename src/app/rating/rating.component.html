@@ -1,0 +1,15 @@
+@for (star of [0,1,2,3,4]; track star) {
+    @if (rate >= star + 1) {
+        <span>&#9733;</span>
+    } @else {
+        <span>&#9734;</span>
+    }
+}
+
+@if (name) {
+    <h3>{{ name }}</h3>
+}
+
+@if (content) {
+    <p>{{ content }}</p>
+}
